@@ -14,16 +14,14 @@ export default async function Home() {
   return <SliceZone slices={home.data.slices} components={components} />;
 }
 
-export async function generateMetadata(): Promise<Metadata> {
-  const client = createClient();
-  const home = await client.getByUID("page", "home");
-
+export function generateMetadata(): Metadata {
   return {
-    title: asText(home.data.title),
-    description: home.data.meta_description,
+    title: "Delester - Your Custom Brand",
+    description: "The best custom soda in the world.",
     openGraph: {
-      title: home.data.meta_title ?? undefined,
-      images: [{ url: home.data.meta_image.url ?? "" }],
+      title: "Delester - Your Custom Brand",
+      description: "The best custom soda in the world.",
+      images: [{ url: "/og-image.png" }],
     },
   };
 }
