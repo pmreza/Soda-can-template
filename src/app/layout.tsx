@@ -1,13 +1,9 @@
 import localFont from 'next/font/local'
 
-import { PrismicPreview } from "@prismicio/next";
-import { repositoryName } from "@/prismicio";
-
 import "./app.css";
 import Header from '@/components/Header';
 import ViewCanvas from '@/components/ViewCanvas';
 import Footer from '@/components/Footer';
-
 
 const alpino = localFont({
   src: "../../public/fonts/Alpino-Variable.woff2",
@@ -15,7 +11,6 @@ const alpino = localFont({
   display: "swap",
   variable: "--font-alpino",
 });
-
 
 export default function RootLayout({
   children,
@@ -32,7 +27,6 @@ export default function RootLayout({
         </main>
         <Footer />
       </body>
-      <PrismicPreview repositoryName={repositoryName} />
     </html>
   );
 }
