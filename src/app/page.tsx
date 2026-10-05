@@ -16,11 +16,11 @@ export default async function Home() {
 
 export function generateMetadata(): Metadata {
   return {
-    title: "Delester - Your Custom Brand",
-    description: "The best custom soda in the world.",
+    title: "Delester - The Refreshing Malt Beverage",
+    description: "Experience the crisp and refreshing taste of Delester. A perfect non-alcoholic drink for every occasion.",
     openGraph: {
-      title: "Delester - Your Custom Brand",
-      description: "The best custom soda in the world.",
+      title: "Delester - The Refreshing Malt Beverage",
+      description: "Experience the crisp and refreshing taste of Delester. A perfect non-alcoholic drink for every occasion.",
       images: [{ url: "/og-image.png" }],
     },
   };
