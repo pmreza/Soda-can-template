@@ -15,6 +15,7 @@ export default async function Home() {
 
 export function generateMetadata(): Metadata {
   return {
+    metadataBase: new URL("https://soda-can-template-2026.onrender.com"),
     title: "Delester - The Refreshing Malt Beverage",
     description: "Experience the crisp and refreshing taste of Delester. A perfect non-alcoholic drink for every occasion.",
     openGraph: {
