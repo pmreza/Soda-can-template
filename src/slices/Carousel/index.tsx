@@ -24,12 +24,12 @@ const FLAVORS: {
   name: string;
 }[] = [
     { flavor: "blackCherry", color: "#710523", name: "Black Cherry" },
-    { flavor: "grape", color: "#572981", name: "Grape Goodness" },
-    { flavor: "lemonLime", color: "#164405", name: "Lemon Lime" },
+    { flavor: "grape", color: "#154889", name: "Doogh Abali" },
+    { flavor: "lemonLime", color: "#164405", name: "Zamzam Cola" },
     {
       flavor: "strawberryLemonade",
-      color: "#690B3D",
-      name: "Strawberry Lemonade",
+      color: "#D9601A",
+      name: "Rani Float",
     },
     { flavor: "watermelon", color: "#4B7002", name: "Watermelon Crush" },
   ];

@@ -6,10 +6,10 @@ import * as THREE from "three";
 useGLTF.preload("/Soda-can.gltf");
 
 const flavorTextures = {
-    lemonLime: "/labels/lemon-lime.png",
-    grape: "/labels/grape.png",
-    blackCherry: "/labels/cherry.png",
-    strawberryLemonade: "/labels/strawberry.png",
+    lemonLime: "/labels/zamzam.jpg",
+    grape: "/labels/doogh-abali.jpg",
+    blackCherry: "/labels/istak-cherry.jpg",
+    strawberryLemonade: "/labels/rani.jpg",
     watermelon: "/labels/watermelon.png",
 };
 

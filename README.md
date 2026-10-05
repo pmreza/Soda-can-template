@@ -1,12 +1,7 @@
+# 🥤 Delester - 3D Soda Can Experience with Prismic + Next.js
 
-# 🥤 Fizzi - 3D Soda Can Experience with Prismic + Next.js
-
-Welcome to **Fizzi**, an interactive, animated soda can experience built with [Next.js](https://nextjs.org/), [Three.js (via React Three Fiber)](https://docs.pmnd.rs/react-three-fiber), and [Prismic](https://prismic.io/).  
+Welcome to **Delester**, an interactive, animated soda can experience built with [Next.js](https://nextjs.org/), [Three.js (via React Three Fiber)](https://docs.pmnd.rs/react-three-fiber), and [Prismic](https://prismic.io/).  
 This project leverages the Prismic + Next.js Minimal Starter and adds custom 3D components, smooth animations, and CMS-powered content management.
-
-### 🌟 **Live Demo is Now Available!**
-
-👉 **[Click Here to Explore Fizzi 🍹 – A Soda Experience Like No Other!](https://fizzi-soda-for-gusty-people.vercel.app/)**
 
 ---
 
@@ -21,9 +16,9 @@ This project leverages the Prismic + Next.js Minimal Starter and adds custom 3D 
 2. **Clone this Project:**
 
    ```bash
-   git clone https://github.com/Itssanthoshhere/Fizzi.git
-   cd fizzi
-   ````
+   git clone <your-github-repo-url>
+   cd delester
+   ```
 
 3. **Install Dependencies:**
 
@@ -45,7 +40,7 @@ This project leverages the Prismic + Next.js Minimal Starter and adds custom 3D 
 | ------------------ | ------------------------------------------------------------- |
 | `Bounded.tsx`      | Responsive layout wrapper with consistent padding             |
 | `Button.tsx`       | Prismic-connected styled button                               |
-| `FizziLogo.tsx`    | Custom animated SVG logo with masking                         |
+| `DelesterLogo.tsx` | Custom animated SVG logo with masking                         |
 | `CircleText.tsx`   | Animated spinning circular text SVG                           |
 | `TextSplitter.tsx` | Splits and animates text character by character               |
 | `SodaCan.tsx`      | 3D soda can rendered with Three.js (supports flavor textures) |
@@ -120,14 +115,6 @@ Deploy easily with Vercel or any cloud provider:
 
 ---
 
-## 📬 Connect With Me
-
-Feel free to connect if you enjoyed the project or have feedback!
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat\&logo=linkedin)](https://www.linkedin.com/in/thesanthoshvs)
-
----
-
 ## 📄 License
 
 This project is for **educational purposes only** and is **not affiliated with or endorsed by** [Prismic](https://www.linkedin.com/company/prismic-io/), Next.js, or any other third-party tools mentioned.
@@ -142,6 +129,4 @@ All trademarks and assets belong to their respective owners.
 
 ---
 
-> Created with ❤️ using Prismic, Next.js & Three.js – customized by **Santhosh VS**
-
----
+> Created with ❤️ using Prismic, Next.js & Three.js
